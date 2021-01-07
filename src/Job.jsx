@@ -22,17 +22,15 @@ function Job({job}) {
                             { new Date(job.created_at).toLocaleDateString() }
                         </Card.Subtitle>
 
-                        <h6>
-                            <Badge variant="secondary" className="mr-2">{job.type}</Badge>
-                            <Badge variant="secondary">{job.location}</Badge>
-                        </h6>
-
-                        
+                        {/* Badges */}
+                        <Badge variant="secondary" className="mr-2">{job.type}</Badge>
+                        <Badge variant="secondary">{job.location}</Badge>
+                    
                             
-                        <div style={{wordBreak : 'break-all', fontSize:'12px'}}>
+                        <p style={{wordBreak : 'break-all'}}>
                             {/* <ReactMarkdown source={job.how_to_apply} /> */}
                             {parse(job.how_to_apply)}
-                        </div>
+                        </p>
                     </div>
                     <img src={job.company_logo} alt={job.company} className="d-none d-md-block" height="30" />
                 </div>
@@ -46,9 +44,9 @@ function Job({job}) {
                     </Button>
                 </Card.Text>
                 <Collapse in={open}>
-                    <div className="mt-4" style={{fontSize:"15px", fontWeight:"normal"}}>
+                    <p className="mt-4" style={{fontSize:"15px", fontWeight:"normal"}}>
                         {parse(job.description)}
-                    </div></Collapse>
+                    </p></Collapse>
            </Card.Body>
         </Card>
     )

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+
+/* Error and Loading Box */
+.error-box, .loading-box {
+    position: absolute;
+    z-index: 1111;
+    top:300%;
+    left:50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+
+    padding: 1rem;
+    text-align: center;    
+    border-radius: 10rem;
+}
+.error-box{
+    border: 1px solid red;
+    background-color: rgb(233, 176, 176);
+} 
+
+
+/* Pagination */
+.pagination {
+    justify-content: flex-end;
+}
