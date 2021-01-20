@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}.container{position:relative}.error-box,.loading-box{position:absolute;z-index:1111;top:300%;left:50%;width:100%;transform:translate(-50%,-50%);padding:1rem;text-align:center;border-radius:10rem}.error-box{border:1px solid red;background-color:#e9b0b0}.pagination{justify-content:flex-end}
+/*# sourceMappingURL=main.52f20986.chunk.css.map */

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-job-app/static/css/main.52f20986.chunk.css",
+    "main.js": "/github-job-app/static/js/main.7e83627f.chunk.js",
+    "main.js.map": "/github-job-app/static/js/main.7e83627f.chunk.js.map",
+    "runtime-main.js": "/github-job-app/static/js/runtime-main.1ab8273d.js",
+    "runtime-main.js.map": "/github-job-app/static/js/runtime-main.1ab8273d.js.map",
+    "static/js/2.edbebe4d.chunk.js": "/github-job-app/static/js/2.edbebe4d.chunk.js",
+    "static/js/2.edbebe4d.chunk.js.map": "/github-job-app/static/js/2.edbebe4d.chunk.js.map",
+    "static/js/3.5a906652.chunk.js": "/github-job-app/static/js/3.5a906652.chunk.js",
+    "static/js/3.5a906652.chunk.js.map": "/github-job-app/static/js/3.5a906652.chunk.js.map",
+    "index.html": "/github-job-app/index.html",
+    "static/css/main.52f20986.chunk.css.map": "/github-job-app/static/css/main.52f20986.chunk.css.map",
+    "static/js/2.edbebe4d.chunk.js.LICENSE.txt": "/github-job-app/static/js/2.edbebe4d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ab8273d.js",
+    "static/js/2.edbebe4d.chunk.js",
+    "static/css/main.52f20986.chunk.css",
+    "static/js/main.7e83627f.chunk.js"
+  ]
+}
